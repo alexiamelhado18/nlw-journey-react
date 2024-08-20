@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    min-width: 0;
+}
+
+input {
+    color-scheme: dark;
+}
+
+.rdp-range_start .rdp-day_button, .rdp-range_end .rdp-day_button {
+    background-color: #BEF264 !important;
+    border: 0 !important;
+    color: #1A2E05 !important;
+}
+
+.rdp-range_middle{
+    background-color: #BEF264 !important;
+    color: #1A2E05 !important;
+
+}
+
+.rdp-range_end {
+    background: linear-gradient(var(--rdp-gradient-direction), #bef264 50%, transparent 50%) !important;
+}
+
+.rdp-range_start{
+    background: linear-gradient(var(--rdp-gradient-direction), transparent 50%, #bef264 50%) !important;
+}
+
+.rdp-today:not(.rdp-outside){
+    color: #65a30d !important;
+}
+
+.rdp-chevron{
+    fill: #BEF264 !important;
+}
